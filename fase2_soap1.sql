@@ -15,6 +15,7 @@ CREATE TABLE curso(
 );
 
 select * from curso;
+select * from pensum;
 
 CREATE TABLE pensum(
 	codigo_pensum INTEGER NOT NULL PRIMARY KEY,
