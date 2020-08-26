@@ -14,6 +14,8 @@ CREATE TABLE curso(
     CONSTRAINT CHK_creditos  CHECK(creditos > 0)
 );
 
+select * from curso;
+
 CREATE TABLE pensum(
 	codigo_pensum INTEGER NOT NULL PRIMARY KEY,
 	carrera       VARCHAR(30)
